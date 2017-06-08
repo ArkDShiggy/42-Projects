@@ -58,7 +58,7 @@ t_point			transform(int x, int y, int z, t_point *dim);
 void			draw_line_points(int x1, int y1, int x2, int y2);
 void			draw_line(t_point *p1, t_point *p2, char *img);
 void			draw_line_two(t_point *p1, t_point *p2, t_midpoint *tmp,
-	 char *img);
+	char *img);
 
 void			print_data(t_data *data);
 void			print_hexa(char *pix_ar);
